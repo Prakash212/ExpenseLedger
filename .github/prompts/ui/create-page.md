@@ -1,30 +1,14 @@
 # UI — Create Page
 
-Create or update a complete ExpenseLedger Blazor page.
+Create or update a complete ExpenseLedger Blazor page for `{Feature}`.
 
-Before coding, inspect existing pages and shared Ledger components.
-Use reusable components before creating new ones.
-
-Include where applicable:
-- LedgerCard
-- LedgerSearchBox
-- LedgerPageSizeSelect
-- LedgerPagination
-- LedgerTable
-- LedgerButton
-- LedgerDialog
-- LedgerConfirmDialog
-- LedgerLoadingIndicator
-- LedgerEmptyState
-- LedgerToast
-
-Rules:
-- Preserve Clean Architecture boundaries.
-- UI calls API clients only; never DbContext directly.
-- Maintain Light/Dark Notebook theme parity.
-- Use scoped CSS only for page composition.
-- Do not duplicate shared component CSS.
-- Validation must not cause layout shift.
-- Preserve accessibility and responsive behavior.
-
-Return complete files with exact paths when implementation is requested.
+Requirements:
+- Follow `.github/copilot-instructions.md` and `.github/planner/ui-design-system.md`.
+- Inspect existing pages and reuse established Ledger components.
+- Use LedgerCard, LedgerButton, LedgerDialog, LedgerTextBox, LedgerSelect, LedgerPageSizeSelect, LedgerPagination, LedgerSearchBox, loading and empty-state components as applicable.
+- Keep presentation/orchestration in Blazor; call API clients, never DbContext directly.
+- Preserve Light/Dark Notebook theme parity.
+- Use scoped CSS only for page-specific composition.
+- Do not duplicate reusable component styles.
+- Reserve validation space to prevent layout shift.
+- Provide complete replacement files with exact paths.
