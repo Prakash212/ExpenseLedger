@@ -1,15 +1,12 @@
-# UI — Create Modal
+# Create Modal Prompt
 
-Create or update an ExpenseLedger modal using the existing LedgerDialog component.
+Create or improve a reusable ExpenseLedger modal using LedgerDialog.
 
 Requirements:
-- Use LedgerDialog, LedgerTextBox, LedgerSelect, LedgerButton and LedgerButtonGroup where appropriate.
-- Separate add and edit state cleanly.
-- Validation must reserve space and never move controls when messages appear.
-- Footer actions remain predictable and keyboard accessible.
-- Support loading/processing state and prevent duplicate submissions.
-- Preserve Light/Dark Notebook theme parity.
-- No page-specific replacement for shared dialog styling.
-
-Verify close, cancel, save, validation, API failure and success notification flows.
-Return complete files with exact paths.
+- Inspect existing dialog/component APIs before coding.
+- Reuse LedgerTextBox, LedgerSelect, LedgerButton, LedgerButtonGroup and other existing Ledger controls.
+- Support Light and Dark Notebook themes.
+- Keep validation space reserved so fields never jump when validation appears.
+- Provide accessible labels, focus handling, close/cancel behavior and processing state.
+- Use complete files with exact paths when output is requested.
+- Do not duplicate shared CSS or create page-specific dialog foundations.

@@ -1,19 +1,17 @@
-# UI — Create Component
+# Create Reusable Ledger Component
 
-Create a reusable ExpenseLedger Blazor component.
-
-First inspect the existing Ledger component library and avoid duplicating an existing control.
+Create a reusable `Ledger` Blazor component for `{ComponentName}`.
 
 Requirements:
-- Clear parameters and EventCallbacks.
-- Accessible semantic markup.
-- Scoped CSS.
-- Light/Dark Notebook theme support.
-- Responsive behavior.
-- Keyboard and focus support.
-- Stable layout during validation/loading states.
-- No inline styles.
-- No Bootstrap visual styling when a Ledger component exists.
-- Preserve API simplicity and backward compatibility.
+- Inspect the existing component library first.
+- Avoid duplicating existing functionality.
+- Define clear `[Parameter]` APIs and EventCallbacks.
+- Keep component behavior self-contained.
+- Put visual styling in colocated scoped CSS.
+- Consume Ledger theme tokens; support Light and Dark themes.
+- Follow accessibility semantics and keyboard interaction patterns.
+- Make the component responsive where relevant.
+- Do not introduce Bootstrap-specific visual styling when a Ledger control can provide the behavior.
+- Provide complete files for new or modified components.
 
-Return the complete Razor and scoped CSS files with exact paths.
+Output exact paths, complete files, and verification steps.

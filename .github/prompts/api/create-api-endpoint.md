@@ -1,4 +1,4 @@
-# API — Create Endpoint
+# Create API Endpoint
 
 Create a .NET 10 ExpenseLedger API endpoint for `{Feature}` / `{Operation}`.
 
@@ -14,4 +14,5 @@ Requirements:
 - Apply authorization requirements appropriate to the feature.
 - Update Redis cache/invalidation strategy for mutations where needed.
 - Add or update tests for happy path, validation, authorization, not-found, and failure paths.
-- Return complete files with exact repository paths.
+
+Output exact paths and complete files.
